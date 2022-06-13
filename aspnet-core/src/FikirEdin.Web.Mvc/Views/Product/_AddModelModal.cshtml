@@ -1,0 +1,71 @@
+﻿@using Abp.Authorization.Users
+@using FikirEdin.Web.Models.Common.Modals
+@using FikirEdin.Web.Models.Product
+@model ProductViewModel
+@{
+    Layout = null;
+}
+
+<script src="https://cdn.ckeditor.com/4.15.1/full/ckeditor.js"></script>
+<div class="modal fade" id="ProductCreateModal" tabindex="-1" role="dialog" aria-labelledby="ProductCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            @await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("CreateNewProduct")))
+            <form name="blogCreateForm" role="form" class="form-horizontal">
+                <div class="modal-body">
+                   
+                    <div class="tab-content mt-4">
+                        <div role="tabpanel" class="tab-pane container active" id="create-blog">
+                            
+                            <div class="form-group row required">
+                                <label class="col-md-3 col-form-label">@L("Categories")</label>
+                                <div class="col-md-9">
+                                    <select class="form-control" name="categoryId" required>
+                                        @foreach(var item in Model.Categories)
+                                        {
+                                            <option value="@item.Id">@item.categoryName</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row required">
+                                <label class="col-md-3 col-form-label">@L("ProductName")</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" name="productName" required maxlength="65" minlength="2" placeholder="Maximum 65 karakter">
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label class="col-md-6 col-form-label"><input type="checkbox" name="productShowcase" value="true"> @L("Sponsor")</label>
+                                <label class="col-md-6 col-form-label"><input type="checkbox" name="isActive" value="true"> @L("isActive")</label>
+                            </div>
+                             <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" for="BlogPicture">@L("Picture")</label>
+                        <div class="col-md-9">
+                            <input type="file" id="ProductPicture" class="form-control dropify" data-height="80" data-allowed-file-extensions="png jpg jpeg gif" data-max-file-size="3M">
+                            <input type="hidden" id="hfPictureName" name="picture">
+                        </div>
+                    </div>
+                  
+                             <div class="form-group row required">
+                                
+                                <div class="col-md-12">
+                                    <textarea name="productDescription" class="form-control"></textarea>
+                                </div>
+                            </div>
+                            
+                            <script>
+                                CKEDITOR.replace('productDescription');
+                            </script>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+               
+
+            </form>
+        </div>
+    </div>
+</div>

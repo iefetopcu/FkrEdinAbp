@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = L("home");
+    Layout = "Layout/_HomeLayout";
+}
+<script src="~/view-resources/Views/Home/products.js" asp-append-version="true"></script>
+<div class="row">
+    <div class="col-lg-12">
+            <img src="https://www.navigamagazin.com/Photos/AdPhotos/AddPhoto637749966014637723.jpeg" style="width:100%!important" height="75"; />
+        </div>
+</div>
+ 
+<div class="row" style="margin-top:30px; margin-bottom: 40px;">
+    <div class="col-xs-12 col-sm-4 col-md-3 sidemenu-holder">
+        @await Html.PartialAsync("_CategoryList.cshtml")
+        </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-9 homebanner-holder">
+        
+        
+
+        <br/>
+        <div class="row" id="productslistsponsor">
+
+
+
+        </div>
+        <div class="row" id="productslist">
+
+
+
+        </div>
+    </div>
+</div>
+
+        
+        
+
+
+    

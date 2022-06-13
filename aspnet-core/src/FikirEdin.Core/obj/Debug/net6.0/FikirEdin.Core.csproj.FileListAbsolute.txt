@@ -1,0 +1,12 @@
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\bin\Debug\net6.0\FikirEdin.Core.deps.json
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\bin\Debug\net6.0\FikirEdin.Core.dll
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\bin\Debug\net6.0\FikirEdin.Core.pdb
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\obj\Debug\net6.0\FikirEdin.Core.csproj.AssemblyReference.cache
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\obj\Debug\net6.0\FikirEdin.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\obj\Debug\net6.0\FikirEdin.Core.AssemblyInfoInputs.cache
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\obj\Debug\net6.0\FikirEdin.Core.AssemblyInfo.cs
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\obj\Debug\net6.0\FikirEdin.Core.csproj.CoreCompileInputs.cache
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\obj\Debug\net6.0\FikirEdin.Core.dll
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\obj\Debug\net6.0\refint\FikirEdin.Core.dll
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\obj\Debug\net6.0\FikirEdin.Core.pdb
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Core\obj\Debug\net6.0\ref\FikirEdin.Core.dll

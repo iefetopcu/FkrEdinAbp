@@ -1,0 +1,17 @@
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\bin\Debug\net6.0\FikirEdin.Application.deps.json
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\bin\Debug\net6.0\FikirEdin.Application.dll
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\bin\Debug\net6.0\FikirEdin.Application.pdb
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\bin\Debug\net6.0\FikirEdin.Application.xml
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\bin\Debug\net6.0\FikirEdin.Core.dll
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\bin\Debug\net6.0\FikirEdin.Core.pdb
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\obj\Debug\net6.0\FikirEdin.Application.csproj.AssemblyReference.cache
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\obj\Debug\net6.0\FikirEdin.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\obj\Debug\net6.0\FikirEdin.Application.AssemblyInfoInputs.cache
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\obj\Debug\net6.0\FikirEdin.Application.AssemblyInfo.cs
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\obj\Debug\net6.0\FikirEdin.Application.csproj.CoreCompileInputs.cache
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\obj\Debug\net6.0\FikirEdin.Application.csproj.CopyComplete
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\obj\Debug\net6.0\FikirEdin.Application.dll
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\obj\Debug\net6.0\refint\FikirEdin.Application.dll
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\obj\Debug\net6.0\FikirEdin.Application.xml
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\obj\Debug\net6.0\FikirEdin.Application.pdb
+C:\Users\EfeTopcu\Desktop\7.1.0\aspnet-core\src\FikirEdin.Application\obj\Debug\net6.0\ref\FikirEdin.Application.dll

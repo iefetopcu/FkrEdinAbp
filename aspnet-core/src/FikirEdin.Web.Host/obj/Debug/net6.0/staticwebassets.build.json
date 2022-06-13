@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "9GV5sqAkYOR88BqnVbxe6Is/7432HWmpRx/EZoQB5lY=",
+  "Source": "FikirEdin.Web.Host",
+  "BasePath": "_content/FikirEdin.Web.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FikirEdin.Web.Host\\wwwroot",
+      "Source": "FikirEdin.Web.Host",
+      "ContentRoot": "C:\\Users\\EfeTopcu\\Desktop\\7.1.0\\aspnet-core\\src\\FikirEdin.Web.Host\\wwwroot\\",
+      "BasePath": "_content/FikirEdin.Web.Host",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\EfeTopcu\\Desktop\\7.1.0\\aspnet-core\\src\\FikirEdin.Web.Host\\wwwroot\\swagger\\ui\\abp.js",
+      "SourceId": "FikirEdin.Web.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EfeTopcu\\Desktop\\7.1.0\\aspnet-core\\src\\FikirEdin.Web.Host\\wwwroot\\",
+      "BasePath": "_content/FikirEdin.Web.Host",
+      "RelativePath": "swagger/ui/abp.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\ui\\abp.js"
+    },
+    {
+      "Identity": "C:\\Users\\EfeTopcu\\Desktop\\7.1.0\\aspnet-core\\src\\FikirEdin.Web.Host\\wwwroot\\swagger\\ui\\abp.swagger.js",
+      "SourceId": "FikirEdin.Web.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EfeTopcu\\Desktop\\7.1.0\\aspnet-core\\src\\FikirEdin.Web.Host\\wwwroot\\",
+      "BasePath": "_content/FikirEdin.Web.Host",
+      "RelativePath": "swagger/ui/abp.swagger.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\ui\\abp.swagger.js"
+    }
+  ]
+}

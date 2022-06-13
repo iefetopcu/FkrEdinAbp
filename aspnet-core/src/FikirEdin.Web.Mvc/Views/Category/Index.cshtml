@@ -1,0 +1,53 @@
+﻿@using FikirEdin.Web.Models.Category
+@model CategoryViewModel
+@{
+    ViewBag.Title = L("Category");
+    Layout = "Layout/_HomeLayout";
+}
+
+<input type="hidden" id="categoryId" value="@Model.Category.Id" />
+
+
+<script src="~/view-resources/Views/CategoryList/Category.js" asp-append-version="true"></script>
+
+
+        <div class="col-xs-12 col-sm-4 col-md-3 sidemenu-holder">
+            <div class="side-menu animate-dropdown">
+    <div class="head"><i class="fa fa-list"></i> Kategoriler</div>        
+    <nav class="yamm megamenu-horizontal" role="navigation">
+        <ul class="nav" id="categorylist">       
+            
+        </ul><!-- /.nav -->
+    </nav><!-- /.megamenu-horizontal -->
+</div>
+			
+            
+	    </div>
+
+		<div class="col-xs-12 col-sm-8 col-md-9 homebanner-holder">
+				    <div class="row">
+        <div class="col-lg-12">
+            <img src="https://www.navigamagazin.com/Photos/AdPhotos/AddPhoto637749966014637723.jpeg" style="width:100%!important" height="100"; />
+        </div>
+        <div class="col-lg-12">
+            <h1>@Model.Category.categoryName </h1>
+        </div>
+    </div>
+
+    <br />
+    <div class="row" id="productslistsponsor">
+        
+
+
+    </div>
+        <div class="row" id="productslist">
+        
+
+
+    </div>
+		</div>
+        
+        
+
+
+    

@@ -1,0 +1,80 @@
+﻿@using Abp.Authorization.Users
+@using FikirEdin.Web.Models.Common.Modals
+@using FikirEdin.Web.Models.Blogs
+@model BlogViewModel
+@{
+    Layout = null;
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker-standalone.min.css" integrity="sha256-SMGbWcp5wJOVXYlZJyAXqoVWaE/vgFA5xfrH3i/jVw0=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js" integrity="sha256-5YmaxAwMjIpMrVlK84Y/+NjCpKnFYa8bWWBbUHSBGfU=" crossorigin="anonymous"></script>
+<script src="https://cdn.ckeditor.com/4.15.1/full/ckeditor.js"></script>
+<div class="modal fade" id="BlogCreateModal" tabindex="-1" role="dialog" aria-labelledby="BlogCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            @await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("CreateNewBlog")))
+            <form name="blogCreateForm" role="form" class="form-horizontal">
+                <div class="modal-body">
+                   
+                    <div class="tab-content mt-4">
+                        <div role="tabpanel" class="tab-pane container active" id="create-blog">
+                            
+                            <div class="form-group row required">
+                                <label class="col-md-3 col-form-label">@L("Categories")</label>
+                                <div class="col-md-9">
+                                    <select class="form-control" name="blogCategoryId" required>
+                                        @foreach(var item in Model.Categories)
+                                        {
+                                            <option value="@item.Id">@item.categoryName</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group row required">
+                                <label class="col-md-3 col-form-label">@L("BlogTitle")</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" name="blogTitle" required maxlength="65" minlength="2" placeholder="Maximum 65 karakter">
+                                </div>
+                            </div>
+                            <div class="form-group row required">
+                                <label class="col-md-3 col-form-label">@L("BlogSpotText")</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" name="blogSpotText" required maxlength="135" minlength="2" placeholder="Maximum 135 karakter">
+                                </div>
+                            </div>
+                            <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" for="BlogPicture">@L("Picture")</label>
+                        <div class="col-md-9">
+                            <input type="file" id="BlogPicture" class="form-control dropify" data-height="80" data-allowed-file-extensions="png jpg jpeg gif" data-max-file-size="3M">
+                            <input type="hidden" id="hfPictureName" name="picture">
+                        </div>
+                    </div>
+                            <div class="form-group row required">
+                                <label class="col-md-3 col-form-label">@L("ReleaseTime")</label>
+                                <div class="col-md-9">
+                                    <input type="date" name="releasetime" required class="form-control"><br />
+                                </div>
+                             <div class="form-group row required">
+                                
+                                <div class="col-md-12">
+                                    <textarea name="blogDescription" class="form-control"></textarea>
+                                </div>
+                            </div>
+                                                
+
+
+                            <script>
+                                CKEDITOR.replace('blogDescription');
+                            </script>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

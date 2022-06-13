@@ -1,0 +1,66 @@
+﻿@using FikirEdin.Web.Startup
+@using FikirEdin.Web.Models.Product
+@model EditProductModalViewModal
+@{
+    ViewBag.Title = L("Product");
+    ViewBag.CurrentPageName = PageNames.Product;
+}
+@section scripts
+{
+       @* <script src="~/view-resources/Views/Product/Index.js" asp-append-version="true"></script>*@
+}
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>Model Ekle</h1>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>@L("Product") : @Model.Product.Category.categoryName @Model.Product.productName Model Ekle</h4>
+            </div>
+                
+            
+               
+                   
+                     
+
+        </div>
+    </div>
+</section>
+<div class="container-fluid">
+       
+                <form name="blogCreateForm" method="post">
+                     <div class="row" >
+                        <div class="col-lg-1">
+                            <h5> Model Adı</h5>
+                        </div>
+                        <div class="col-lg-10">
+                            <input type="hidden" value="@Model.Product.Id" name="productId"/>
+                            <input type="text" required name="modelName" class="form-control"/>
+                        </div>
+                      
+
+                        <div class="col-lg-1">
+                           <input type="submit" value="Ekle" class="btn btn-success"/>
+                        </div>
+                        </div>                     
+                </form>       
+    </div>
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>Modeller</h1>
+            </div>
+            
+        </div>
+    </div>
+</section>

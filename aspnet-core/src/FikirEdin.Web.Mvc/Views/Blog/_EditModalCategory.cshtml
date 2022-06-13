@@ -1,0 +1,30 @@
+﻿@using Abp.Authorization.Users
+@using FikirEdin.Web.Startup
+@using FikirEdin.Web.Models.Blogs
+@using FikirEdin.Web.Models.Common.Modals
+@model EditBlogCategoryModalViewModal
+@{
+    Layout = null;
+}
+@await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("EditBlogCategory")))
+<form name="BlogCategoryEditForm" role="form" class="form-horizontal">
+    <input type="hidden" name="Id" value="@Model.BlogCategory.Id" />
+    <div class="modal-body">
+
+        <div class="tab-content mt-4">
+            <div role="tabpanel" class="tab-pane container active" id="edit-blog-details">
+                <div class="form-group row required">
+                    <label class="col-md-3 col-form-label" for="categoryName">@L("CategoryName")</label>
+                    <div class="col-md-9">
+                        <input id="categoryName" type="text" class="form-control" name="categoryName" value="@Model.BlogCategory.categoryName" required maxlength="65" minlength="2">
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+</form>
+
+<script src="~/view-resources/Views/Blog/_EditBlogCategoryModal.js" asp-append-version="true"></script>

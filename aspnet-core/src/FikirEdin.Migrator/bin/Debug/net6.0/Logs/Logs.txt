@@ -1,0 +1,47 @@
+﻿DEBUG 2022-06-03 18:04:28,076 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-03 18:04:28,113 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2022-06-03 18:04:28,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FikirEdin.Migrator.FikirEdinMigratorModule, FikirEdin.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:28,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FikirEdin.EntityFrameworkCore.FikirEdinEntityFrameworkModule, FikirEdin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:28,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FikirEdin.FikirEdinCoreModule, FikirEdin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:28,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:28,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:28,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:28,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:28,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:28,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:28,158 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2022-06-03 18:04:28,504 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: FikirEdin.EntityFrameworkCore.FikirEdinDbContext, FikirEdin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:29,002 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-03 18:04:29,038 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-03 18:04:29,053 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-06-03 18:04:29,057 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FikirEdin
+INFO  2022-06-03 18:04:29,126 [1    ] FikirEdin.Migrator.Log                   - Host database: server=localhost;database=fikiredindb;uid=*****;pwd=*****
+INFO  2022-06-03 18:04:29,127 [1    ] FikirEdin.Migrator.Log                   - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2022-06-03 18:04:34,636 [1    ] FikirEdin.Migrator.Log                   - HOST database migration started...
+INFO  2022-06-03 18:04:37,101 [1    ] FikirEdin.Migrator.Log                   - HOST database migration completed.
+INFO  2022-06-03 18:04:37,101 [1    ] FikirEdin.Migrator.Log                   - --------------------------------------------------------
+INFO  2022-06-03 18:04:37,156 [1    ] FikirEdin.Migrator.Log                   - All databases have been migrated.
+DEBUG 2022-06-03 18:04:41,272 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2022-06-03 18:04:41,273 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2022-06-03 18:04:47,964 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-03 18:04:47,980 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2022-06-03 18:04:48,010 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FikirEdin.Migrator.FikirEdinMigratorModule, FikirEdin.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:48,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FikirEdin.EntityFrameworkCore.FikirEdinEntityFrameworkModule, FikirEdin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:48,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FikirEdin.FikirEdinCoreModule, FikirEdin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:48,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:48,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:48,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:48,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:48,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:48,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:48,017 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2022-06-03 18:04:48,256 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: FikirEdin.EntityFrameworkCore.FikirEdinDbContext, FikirEdin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-03 18:04:48,579 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-03 18:04:48,611 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-03 18:04:48,623 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-06-03 18:04:48,627 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FikirEdin
+INFO  2022-06-03 18:04:48,682 [1    ] FikirEdin.Migrator.Log                   - Host database: server=localhost;database=fikiredindb;uid=*****;pwd=*****
+INFO  2022-06-03 18:04:48,682 [1    ] FikirEdin.Migrator.Log                   - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2022-06-03 18:05:00,295 [1    ] FikirEdin.Migrator.Log                   - Migration canceled.
+DEBUG 2022-06-03 18:05:01,399 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2022-06-03 18:05:01,399 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
